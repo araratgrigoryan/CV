@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red;  */
+}
+
+header {
+  background-color: #00008b;
+  color: white;
+  height: 80px;
+  border-radius: 40px;
+  align-items: center;
+  margin-top: 2px;
+  padding-top: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 230px;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 60px;
+  cursor: pointer;
+  font-family: "Outfit", sans-serif;
+}
+
+.logo,
+.logo a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+
+#dropdown-menu {
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  width: 60px;
+}
+
+#dropdown-menu option {
+  color: black;
+  background-color: transparent;
+}
+
+#lezu {
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+
+#lezu option {
+  color: black;
+}

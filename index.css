@@ -11,10 +11,11 @@
     rgba(0, 11, 161, 1) 0%,
     rgba(119, 114, 114, 1) 74%
   ); */
-  background-image: url(acsess/image/body-back.jpg);
+  background: url(acsess/image/body-back3.jpg) no-repeat;
   width: 100%;
-  height: 550px;
-  padding-top: 20px;
+  height: 600px;
+  /* padding-top: 20px;
+  box-shadow: 0 0 10px rgba(0 0 0 / 30%); */
 }
 
 header {
@@ -23,8 +24,9 @@ header {
     rgba(0, 11, 161, 1) 0%,
     rgba(119, 114, 114, 1) 74%
   ); */
-  background-image: url(acsess/image/body-back.jpg);
-  box-shadow: 0 0 10px rgba(0 0 0 / 30%);
+  background-color: transparent;
+  /* filter: blur(3px); */
+  box-shadow: 9px 10px 10px rgba(0 0 0 / 30%);
   color: white;
   height: 80px;
   border-radius: 40px;
@@ -130,8 +132,8 @@ header {
 .welcome h1 {
   background: -webkit-linear-gradient(
     20deg,
-    rgba(179, 0, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 75%
+    rgb(255, 255, 255) 0%,
+    rgb(25, 3, 26) 160%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -170,6 +172,7 @@ header {
   color: white;
   font-family: "Outfit", sans-serif;
   font-size: 15px;
+  font-weight: 500;
 
   place-self: center;
   border: solid 2px #0001;
@@ -190,3 +193,7 @@ header {
     --r: 100%;
   }
 }
+
+/*  */
+
+

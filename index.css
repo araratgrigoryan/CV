@@ -228,6 +228,10 @@ header {
 
 /*  */
 
+.work {
+  margin-bottom: 150px;
+}
+
 .work-info {
   display: flex;
   justify-content: space-evenly;
@@ -247,8 +251,7 @@ header {
   transition: 0.5s;
 }
 
-.baget,
-img:hover {
+.baget-img:hover {
   transform: translate(-5px, -10px);
 }
 
@@ -266,7 +269,7 @@ h6 {
   transition: 0.5s;
 }
 
-.smart img:hover {
+.smart-img:hover {
   transform: translate(-5px, -10px);
 }
 
@@ -297,4 +300,43 @@ h6 {
   border-radius: 10px;
   display: flex;
   margin-top: 10px;
+}
+
+/*  */
+
+.certificate {
+  margin-bottom: 150px;
+}
+
+.certificate h1 {
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: "Outfit", sans-serif;
+  font-size: 37px;
+  background: -webkit-linear-gradient(
+    20deg,
+    rgb(220, 220, 220) 0%,
+    rgb(25, 3, 26) 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.certificate-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.certificate-item img {
+  /* border-radius: 10px; */
+  width: 450px;
+  height: 300px;
+}
+
+.certificate-img {
+  transition: 2s;
+}
+
+.certificate-img:hover {
+  transform: scale(1.2);
 }

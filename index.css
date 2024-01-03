@@ -48,9 +48,14 @@ header {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  gap: 60px;
+  gap: 50px;
   cursor: pointer;
   font-family: "Outfit", sans-serif;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
 }
 
 .menu-item:hover {

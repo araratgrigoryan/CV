@@ -41,28 +41,22 @@
       <header>
         <div class="nav">
           <div class="logo">
-            <a href="#"
+            <a href="index.html"
               ><h3 class="logo-title"><span></span>GRIGORYAN</h3></a
             >
           </div>
           <div class="menu">
             <ul class="menu-list">
-              <li class="menu-item">Home</li></a>
-              <li class="menu-item">About Me</li>
-              <select name="" id="dropdown-menu">
-                <option>Other</option>
-                <option>Places of work</option>
-                <option>Certificates</option>
-                <option>Project</option>
-                <option>Skills</option>
-                <option>Places of study</option>
-                <option>Download CV</option>
-              </select>
-              <li class="menu-item">Contact</li>
+              <li class="menu-item">
+                <a class="menu-item-scroll" data-target="about-me">About Me</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-scroll" data-target="contact">Contact</a>
+              </li>
               <select name="" id="lezu">
-                <option value="ARM">ARM</option>
-                <option value="Russian">RUS</option>
-                <option value="ENG">ENG</option>
+                <option value="eng">ENG</option>
+                <option value="ru">RUS</option>
+                <option value="arm">ARM</option>
               </select>
             </ul>
           </div>
@@ -70,19 +64,19 @@
       </header>
       <section>
         <div class="welcome">
-          <h1>
+          <h1 class="trans">
             HELLO <br />
             MEET MY PORTFOLIO
           </h1>
           <div class="btn-page">
-            <button class="scroll-page">MORE</button>
+            <button class="scroll-page" id="main-action-button">MORE</button>
           </div>
         </div>
       </section>
     </div>
 
     <section id="glux">
-      <div class="abourt-me">
+      <div class="abourt-me" id="about-me">
         <div class="about-img">
           <img src="acsess/image/about-me.jpg.png.jpg" alt="" />
         </div>
@@ -103,7 +97,7 @@
         </div>
       </div>
 
-      <div class="work">
+      <div class="work" id="work">
         <div class="work-title">
           <h1>Places of work</h1>
         </div>
@@ -132,7 +126,7 @@
         </div>
       </div>
 
-      <div class="own">
+      <div class="own" id="own">
         <div class="own-title">
           <h1>I own</h1>
         </div>
@@ -214,7 +208,7 @@
         </div>
       </div>
 
-      <div class="certificate">
+      <div class="certificate" id="certificate">
         <h1>Certificate</h1>
         <div class="certificate-item">
           <img
@@ -230,7 +224,7 @@
         </div>
       </div>
 
-      <div class="project">
+      <div class="project" id="project">
         <h1>Project</h1>
         <div class="certificate-item">
           <a target="_blank" href="https://arogrigoryan.github.io/burgers/"
@@ -239,7 +233,7 @@
         </div>
       </div>
 
-      <div class="down">
+      <div class="down" id="CV">
         <h1>Download Document CV</h1>
         <div class="down-icon">
           <img src="download/save-icon.png" alt="" />
@@ -260,7 +254,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="contact">
       <div>
         <h1>ARARAT GRIGORYAN</h1>
         <h4>phone number:<span>+374-93-83-10-99</span></h4>
@@ -281,5 +275,6 @@
     </footer>
 
     <script src="index.js"></script>
+    <script src="lang.js"></script>
   </body>
 </html>

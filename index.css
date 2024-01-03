@@ -418,7 +418,7 @@ h6 {
 
 .git img {
   width: 100px;
-  height: 90px;
+  height: 100px;
   transition: 0.5s;
 }
 
@@ -451,8 +451,8 @@ h6 {
 }
 
 .figma img {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   transition: 0.5s;
 }
 
@@ -464,8 +464,8 @@ h6 {
 }
 
 .corel img {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   transition: 0.5s;
 }
 
@@ -486,6 +486,7 @@ h6 {
 }
 
 /*  */
+
 .certificate {
   margin-bottom: 150px;
 }
@@ -515,8 +516,8 @@ h6 {
 }
 
 .certificate-img {
-  transition: 2s;
-  box-shadow: 10px 10px 10px black;
+  transition: 1s;
+  box-shadow: 10px 10px 10px rgb(125, 121, 121);
   border-radius: 15px;
 }
 
@@ -547,10 +548,110 @@ h6 {
 
 .burgers {
   border-radius: 10px;
-  box-shadow: 10px 10px 10px black;
-  transition: 2s;
+  box-shadow: 10px 10px 10px rgb(125, 121, 121);
+  transition: 1s;
 }
 
 .burgers:hover {
   transform: scale(1.2);
+}
+
+/*  */
+/*  */
+
+.down {
+  margin-bottom: 100px;
+}
+
+.down h1 {
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: "Outfit", sans-serif;
+  font-size: 37px;
+  background: -webkit-linear-gradient(
+    20deg,
+    rgb(220, 220, 220) 0%,
+    rgb(25, 3, 26) 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.down-icon {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.down-icon img {
+  width: 250px;
+  height: 190px;
+}
+
+.down-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-down {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+
+  place-self: center;
+  border: solid 2px #0001;
+  padding: 0 1em;
+  border-radius: 2em;
+  box-shadow: inset 1px 10px 20px #fff4;
+  background: radial-gradient(
+      circle at var(--x, 0%) var(--y, 0%),
+      rgb(254, 136, 26) calc(var(--r) - 1px),
+      transparent var(--r)
+    )
+    border-box;
+  color: black;
+
+  transition: --r 0.35s;
+
+  &:hover {
+    --r: 100%;
+  }
+}
+
+/*  */
+/*  */
+
+footer {
+  background-color: gray;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 30px;
+  color: white;
+  align-items: center;
+}
+
+footer h4 {
+  font-family: "Titillium Web", sans-serif;
+}
+
+footer h1 {
+  font-family: "Mukta", sans-serif;
+}
+
+.icon-style {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }

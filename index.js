@@ -32,3 +32,4 @@ document.addEventListener("click", function (event) {
 document.getElementById("main-action-button").onclick = function () {
   document.getElementById("about-me").scrollIntoView({ behavior: "smooth" });
 };
+

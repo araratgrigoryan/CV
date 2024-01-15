@@ -9,16 +9,8 @@
   background: url(acsess/image/body-back3.jpg) no-repeat;
   width: 100%;
   height: 600px;
-  margin-bottom: 150px;
 }
 
-/* 
-#glux {
-  background-image: url(acsess/image/708765.jpg);
-  padding-top: 100px;
-  height: 100%;
-  background-image: no-repeat;
-} */
 
 header {
   background-color: transparent;
@@ -37,10 +29,15 @@ header {
   left: 6%;
 }
 
+#glux {
+  background-image: url(acsess/image/708765.jpg);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 .nav {
   display: flex;
   justify-content: space-evenly;
-  padding: 0px 230px;
   align-items: center;
 }
 
@@ -563,10 +560,7 @@ h6 {
 
 /*  */
 /*  */
-
-.down {
-  margin-bottom: 100px;
-}
+  
 
 .down h1 {
   text-align: center;
@@ -584,7 +578,7 @@ h6 {
 
 .down-icon {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 10px;
 }
 
@@ -595,11 +589,11 @@ h6 {
 
 .down-btn {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .btn-down {
-  width: 200px;
+  width: 250px;
   height: 50px;
   border-radius: 10px;
   border: 0;

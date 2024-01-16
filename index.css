@@ -11,7 +11,6 @@
   height: 600px;
 }
 
-
 header {
   background-color: transparent;
   place-self: center;
@@ -265,13 +264,23 @@ header {
   transform: translate(-5px, -10px);
 }
 
-.baget,
-.smart h5,
-h6 {
+.baget h5 {
+  color: gray;
+  font-family: "Lora", serif;
+}
+.baget h6 {
   color: gray;
   font-family: "Lora", serif;
 }
 
+.smart h5 {
+  color: gray;
+  font-family: "Lora", serif;
+}
+.smart h6 {
+  color: gray;
+  font-family: "Lora", serif;
+}
 .smart img {
   width: 100px;
   height: 100px;
@@ -338,10 +347,12 @@ h6 {
 
 .html,
 .css,
-.js h5,
+.js,
+h5,
 h6 {
   color: rgb(0, 0, 0);
   font-family: "Lora", serif;
+  font-size: 13px;
 }
 
 .css img {
@@ -560,7 +571,6 @@ h6 {
 
 /*  */
 /*  */
-  
 
 .down h1 {
   text-align: center;
